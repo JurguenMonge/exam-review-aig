@@ -1,0 +1,16 @@
+{
+  "name": "exam-review",
+  "version": "1.0.0",
+  "description": "subir un archivo .txt a bucket,\r con una función lambda, toma cada línea del archivo, para crear un archivo nuevo por cada línea de texto contenida en el archivo subido. La función lambda se activa cada vez que suben un archivo y lo almacena en otra ubicación especificada.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.668.0",
+    "fs": "^0.0.1-security"
+  }
+}
